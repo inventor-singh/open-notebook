@@ -1,12 +1,26 @@
+<!-- TELUS CUSTOMIZATION START -->
 <a id="readme-top"></a>
 
-<!-- [![Contributors][contributors-shield]][contributors-url] -->
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+# Telus AI Notebook (Powered by Open Notebook & FuelIx)
 
+Welcome to the Telus team's fork of Open Notebook!  
+This project is customized to connect with **Telus's FuelIx** platform, giving you access to a variety of large language models for experimentation and solution building.
+
+## 🚀 Getting Started for Telus Team
+
+This repository is your playground for learning about AI, experimenting with LLMs, and building solutions tailored to Telus's needs.  
+**FuelIx integration** means you can leverage enterprise-grade AI models securely and at scale.
+
+### How to Use
+
+- **Clone this repo** and follow the setup instructions below.
+- The code is fully open for you to explore, modify, and extend.
+- Try out the built-in features, then think about how you can adapt them for the TV domain or your team's workflows.
+
+**Don't be afraid to break things!**  
+This is a safe space to learn, share, and innovate together.
+
+---
 
 <!-- PROJECT LOGO -->
 <br />
@@ -30,6 +44,21 @@
   </p>
 </div>
 
+---
+
+## 🛠️ Telus Customization Ideas
+
+Here are some ways you can adapt this project for the TV domain:
+
+- **Content Summarization:** Use LLMs to generate summaries or highlights for VOD or Live TV content.
+- **Personalized Recommendations:** Experiment with AI-driven recommendations based on user preferences or viewing history.
+- **AI Chatbots:** Build assistants to help customers discover content or troubleshoot issues.
+- **Automated Metadata Generation:** Use AI to tag, categorize, or enrich TV content.
+- **Voice/Conversational Interfaces:** Prototype voice-driven search or navigation for set-top boxes or mobile apps.
+
+Feel free to brainstorm and share your ideas with the team!
+
+---
 
 ## 📢 Open Notebook is under very active development
 
@@ -103,7 +132,11 @@ Learn more about our project at [https://www.open-notebook.ai](https://www.open-
 
 ## ⚙️ Setting Up
 
-Go to the [Setup Guide](docs/SETUP.md) to learn how to set up the tool in details.
+Go to the [Setup Guide](docs/SETUP.md) to learn how to set up the tool in detail.
+
+**Telus Note:**  
+Make sure your `.env` is configured to connect with FuelIx.  
+If you need credentials or help, reach out to your team lead or the FuelIx support channel.
 
 You don't need to clone this repo if you just want to use the app without building from source! 
 Take a look at the [Open Notebook Boilerplate](https://github.com/lfnovo/open-notebook-boilerplate) repo with a sample of how to set it up for maximum feature usability. 
@@ -272,30 +305,23 @@ See the [open issues](https://github.com/lfnovo/open-notebook/issues) for a full
 <!-- CONTRIBUTING -->
 ## Contributing
 
-We would love your contributions! Specifically, we're looking for help with:
-- **Front-End Development**: Improve the UI/UX by moving beyond Streamlit.
-- **Testing & Bug Fixes**: Help make Open Notebook more robust.
-- **Feature Development**: Let’s make the coolest note-taking tool together!
+This is a collaborative learning project!  
+- Share your experiments and findings.
+- Propose new features or improvements.
+- Help each other learn and grow.
 
-See more at [CONTRIBUTING](CONTRIBUTING.md)
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Contact
 
+For Telus-specific questions, reach out on your team Slack channel or contact your project lead.
+
+<!-- TELUS CUSTOMIZATION END -->
 
 <!-- LICENSE -->
 ## License
 
 Open Notebook is MIT licensed. See the [LICENSE](LICENSE) file for details.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Luis Novo - [@lfnovo](https://twitter.com/lfnovo)
-Join our [Discord server](https://discord.gg/37XJPXfz2w) for help, share workflow ideas, and suggest features.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
