@@ -95,7 +95,7 @@ class OpenAIEmbeddingModel(EmbeddingModel):
         Embeds the content using Open AI embedding
         """
         # todo: make this Singleton
-        client = OpenAI()
+        client = OpenAI(base_url=os.environ.get("OPENAI_API_BASE"))
         text = text.replace("\n", " ")
         return (
             client.embeddings.create(input=[text], model=self.model_name)

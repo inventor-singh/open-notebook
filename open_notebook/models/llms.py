@@ -291,4 +291,5 @@ class OpenAILanguageModel(LanguageModel):
             max_tokens=self.max_tokens,
             top_p=self.top_p,
             model_kwargs=kwargs,
+            base_url=os.environ.get("OPENAI_API_BASE")
         )

@@ -4,7 +4,7 @@
 # 3. Run `docker compose --profile db_only up` to start the database only -- useful if developing locally
 services:
   surrealdb:
-    image: surrealdb/surrealdb:v2
+    image: surrealdb/surrealdb:latest
     ports:
       - "8000:8000"
     volumes:
